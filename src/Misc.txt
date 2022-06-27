@@ -1,0 +1,10 @@
+Reading Terminal Market;12th and Arch St, Philadelphia, PA 19107;4.5
+The Franklin Fountain;116 Market St, Philadelphia, PA 19106;4.5
+Termini Bros Bakery; 51 N 12th Ste 45, Philadelphia, PA 19107;4.5
+Insomnia;Morgan North;null
+Federal Donuts;1632 Sansom St, Philadelphia, PA 19103;4.5
+Crepe Truck;Tyler School of Art;Null
+ICI Macarons & Cafe;239 Arch St, Philadelphia, PA 19106;5.0
+The Fitzwater Cafe;701 Filzwater St, Philadelphia, PA 19147;4.5
+A La Mousse;145 N 11th St, Philadelphia, PA 19107; 4.5
+Hope's Cookies; 12th and Arch St, Philadelphia, PA 19107;5.0

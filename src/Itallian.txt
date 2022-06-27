@@ -1,0 +1,10 @@
+Ristorante Pesto;1915 S Broad St, Philadelphia, PA 19148;5.0
+The Victor Cafe;1303 Dickinson St, Philadelphia, PA 19147;4.5
+Bistro Romano;120 Lombard St Society Hill, Philadelphia, Pa 19147;4.5
+Vetri Cucina;1312 Spruce St, Philadelphia, PA 19107;4.5
+Gran Caffe L'Aquila;1716 Chestnut St, Philadelphia, PA 19103;4.5
+Little Nonna's;1234 Locust St, Philadelphia, PA 19107;4.5
+Barbuzzo;110 S 13th St, Philadelphia, PA 19107;4.5
+Zavino Wine Bar Pizzeria;112 S 13th St 32nd and Chestnut St, Philadelphia, PA 19107;4.5
+Giorgio on Pine;1328 Pine St, Philadelphia, PA 19107;4.5
+Dante & Luigi's; 762 S 10th St, Philadelphia, PA 19147;4.5
