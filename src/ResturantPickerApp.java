@@ -23,11 +23,21 @@ public class ResturantPickerApp {
     public static void main(String[] args) {
         Scanner uI = new Scanner(System.in);
         int uINum = 0;
+        double userLong = 0;
+        double userLat = 0;
         ArrayList<String> name = new ArrayList<>();
         ArrayList<String> location = new ArrayList<>();
         ArrayList<String> rating = new ArrayList<>();
+        ArrayList<String> longitude = new ArrayList<>();
+        ArrayList<String> latitude = new ArrayList<>();
         System.out.println("Please enter yes to continue the program or No to exit");
             System.out.println("Hello and wellcome to the Where a Date App! \nPress Enter to continue!");
+            uI.nextLine();
+            System.out.println("Please enter you latitudwe");
+            userLat = uI.nextDouble();
+            uI.nextLine();
+            System.out.println("Please enter your longitude");
+            userLong = uI.nextDouble();
             uI.nextLine();
             menu();
             uINum = uI.nextInt();
@@ -38,7 +48,7 @@ public class ResturantPickerApp {
              */
             if (uINum == 1) {
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Asian.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -48,13 +58,16 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you (miles): " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
             } else if (uINum == 2) {
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Itallian.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -70,7 +83,7 @@ public class ResturantPickerApp {
                 }
             } else if (uINum == 3) {
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Indian.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -87,7 +100,7 @@ public class ResturantPickerApp {
                 }
             } else if (uINum == 4) {
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Misc.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -103,7 +116,7 @@ public class ResturantPickerApp {
                 }
             } else if(uINum == 5){
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Cheap.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -119,7 +132,7 @@ public class ResturantPickerApp {
                 }
             } else if(uINum == 6){
                 String filename = "C:\\Users\\29jva\\OneDrive\\Desktop\\Summer Code\\Java\\JoshCode\\ResturantApp\\ReturantPickerApp\\src\\Bars.txt";
-                insertArray(name, location, rating, filename);
+                insertArray(name, location, rating, latitude, longitude,filename);
                 /*
                  * when calling files make sure that you call the exaact location
                  */
@@ -129,13 +142,16 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you: " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
             }
     }
-    public static void insertArray(ArrayList<String> name, ArrayList<String> location, ArrayList<String> rating, String filename) {
+    public static void insertArray(ArrayList<String> name, ArrayList<String> location, ArrayList<String> rating, ArrayList<String> LatitudeArray, ArrayList <String> LongitudeArray, String filename) {
         try {
             /*
              * Think of scanner of blank notepads
@@ -162,12 +178,18 @@ public class ResturantPickerApp {
                 String nameRes ="";
                 String loc = "";
                 String rate = "";
+                String longitude = "";
+                String latitude = "";
                 nameRes = sCT.next();
                 name.add(nameRes);
                 loc = sCT.next();
                 location.add(loc);
                 rate = sCT.next();
                 rating.add(rate);
+                latitude = sCT.next();
+                LatitudeArray.add(latitude);
+                longitude = sCT.next();
+                LongitudeArray.add(longitude);
             }
              sC.close();
         } catch(FileNotFoundException badFile){
@@ -191,6 +213,33 @@ public class ResturantPickerApp {
         System.out.println("Returant Name: " + name.get(randomNum) + "\n"
                 + "Location: " + location.get(randomNum) + "\n" +
                 "Rating: " + rating.get(randomNum));
+    }
+    public static double distance(double lat1, double lat2, double lon1, double lon2){
+        /*
+         * In order to complete this method we will be using the Haversine formula
+         * This formula takes a set 2 longetudes and latitudes in order to calculate the
+         * distance between two points of a sphere
+         */
+        double dlat = 0.0;
+        double dlon = 0.0;
+        double a = 0.0;
+        double c = 0.0;
+        double d = 0.0;
+        int radius = 6387; // This is in KM
+        double miles = 0.0;
+        dlat = Math.toRadians(lat2 - lat1);
+        dlon = Math.toRadians(lon2 - lon1);
+        /*
+         * This is the start of the Haversine formula
+         */
+        a = Math.sin(dlat/2) * Math.sin(dlat/2) + Math.cos(Math.toRadians(lat1)) *
+                Math.cos(Math.toRadians(lat2)) * Math.sin(dlon/2) * Math.sin(dlon/2);
+        c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        d = radius * c;
+        miles = (d * 0.621371);
+
+        return miles;
+
     }
 }
 /*

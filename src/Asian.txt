@@ -1,21 +1,21 @@
-Sampan;124 South 13th St, Philadelphia, PA 19107;4.5
-Buddakan; 325 chestnut St, Philadelphia, PA 19106;4.5
-Terakawa Ramen; 204 N 9th St, Philadelphia, PA 19107;4.5
-Morimota; 723 Chestnut St, Philadelphia, PA 19106;4.5
-Dim Sum GArden; 1020 Race St, Philadelphia, Ps 19107;4.0
-Pod; 3636 Sansom St, Philadelphia, PA 19104;4.0
-Xiandu Thai Fusion Cuisine; 1119 Walnut St, Philadelphia, PA 19107; 4.5
-Sang Kee Peking Duck House; 238 N 9th St, Philadelphia, PA 19107; 4.0
-Han Dynasty; 123 Chestnut St, Philadelphia, PA 19106; 4.0
-Nan Zhou Hand Drawn Noodle House; 1022 Race St, Philadelphia, PA 19107; 4.0
-Double Knot;120 South 13th St, Philadelphia, PA 19107;4.5
-Zama;128 S 19th St, Philadelphia, PA 19103;4.0
-1225Raw Sushi & Sake Lounge;1225 Sansom St, Philadelphia, Pa 19107;4.0
-Bleu Sushi;262 S 10th St, Philadelphia, PA 19107;4.5
-Yamitsuki;1028 Arch St, Philadelphia, PA 19107;4.5
-Doma;1822 Callowhill St, Philadelphia, PA 19130;4.5
-Umai Umi;533 N 22nd St, Philadelphia, PA 19130;4.5
-Nom Nom Ramen;20 S 18th St, Philadelphia, PA 19103;4.0
-Seorabol;1326 Spruce St, Philadelphia, PA 19107;4.5
-Cafe Soho;468 W Cheltrnham Ave, Philadelphia, PA 19126;4.0
-Korena;3801 Chestnut St, Philadelphia, PA 19104;4.0
+Sampan;124 South 13th St, Philadelphia, PA 19107;4.5;39.94967905931621;-75.16225532883638
+Buddakan;325 chestnut St, Philadelphia, PA 19106;4.5;39.94928128463778;-75.147154
+Terakawa Ramen;204 N 9th St, Philadelphia, PA 19107;4.5;39.95557619445567;-75.15452602883639
+Morimota;723 Chestnut St, Philadelphia, PA 19106;4.5;39.94983925407846;-75.15328578644252
+Dim Sum GArden;1020 Race St, Philadelphia, Ps 19107;4.0;39.955299422652764;-75.15677394232722
+Pod;3636 Sansom St, Philadelphia, PA 19104;4.0;39.95395187144006;-75.1962947730183
+Xiandu Thai Fusion Cuisine;1119 Walnut St, Philadelphia, PA 19107;4.5;39.94922803499779;-75.15988500000002
+Sang Kee Peking Duck House;238 N 9th St, Philadelphia, PA 19107;4.0;39.956575416002636;-75.15424438465446
+Han Dynasty;123 Chestnut St, Philadelphia, PA 19106;4.0;39.94865891166798;-75.14371897116361
+Nan Zhou Hand Drawn Noodle House;1022 Race St, Philadelphia, PA 19107;4.0;39.955392146607245;-75.15683027116361
+Double Knot;120 South 13th St, Philadelphia, PA 19107;4.5;39.94988223330661;-75.16227053062474
+Zama;128 S 19th St, Philadelphia, PA 19103;4.0;39.951100579497144;-75.17242298650915
+1225Raw Sushi & Sake Lounge;1225 Sansom St, Philadelphia, Pa 19107;4.0;39.950180233425115;-75.1614924
+Bleu Sushi;262 S 10th St, Philadelphia, PA 19107;4.5;39.94668156598364;-75.15797364232722
+Yamitsuki;1028 Arch St, Philadelphia, PA 19107;4.5;39.95366977737172;-75.15747665767277
+Doma;1822 Callowhill St, Philadelphia, PA 19130;4.5;39.960423535413454;-75.16918032698167
+Umai Umi;533 N 22nd St, Philadelphia, PA 19130;4.5;39.96490330952739;-75.17413355767277
+Nom Nom Ramen;20 S 18th St, Philadelphia, PA 19103;4.0;39.952766295067335;-75.17027284232722
+Seorabol;1326 Spruce St, Philadelphia, PA 19107;4.5;39.946866141103335;-75.16398842883638
+Cafe Soho;468 W Cheltrnham Ave, Philadelphia, PA 19126;4.0;40.05516421227738;-75.12605485760642
+Korena;3801 Chestnut St, Philadelphia, PA 19104;4.0;39.955673649523995;-75.19853115581807
