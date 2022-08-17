@@ -1,10 +1,10 @@
-Indeblue Modern Indian; 205 S 13th St, Philadelphia, PA 19107;4.5
-Karma Restaurant & Bar;246 Market St, Philadelphia, PA 19106; 4.0
-Banana Leaf; 1009 Arch St, Philadelphia, PA 19107;4.0
-Veda Modern Indian Bistro;1920 Chestnut St, Philadelphia, PA 19103; 4.0
-Kabul Restaurant; 106 Chestnut St, Philadelphia, PA 19106;4.0
-Samosa Indian Vegetarian;1214 Walnut St, Philadelphia, PA 19107;4.0
-Amma's South Indian Cuisine; 1518 Chestnut St, Philadelphia 19102;4.5
-Thanal Indian Tavern;1939 Arch St, Philadelphia , PA 19103;4.5
-King of Tandoor;1824 Callowhill St, Philadelphia, PA 19130;4.0
-Philadelphia Chutney Company;1628 Sansom St, Philadelphia, PA 19103;4.0
+Indeblue Modern Indian;205 S 13th St, Philadelphia, PA 19107;4.5;39.94864171187081;-75.16202053558197
+Karma Restaurant & Bar;246 Market St, Philadelphia, PA 19106;4.0;39.95016115736808;-75.14551346441803
+Banana Leaf;1009 Arch St, Philadelphia, PA 19107;4.0;39.95393652823225;-75.15657947605749
+Veda Modern Indian Bistro;1920 Chestnut St, Philadelphia, PA 19103;4.0;39.951949103396785;-75.17285619140169
+Kabul Restaurant;106 Chestnut St, Philadelphia, PA 19106;4.0;39.94818026265009;-75.14278943558196
+Samosa Indian Vegetarian;1214 Walnut St, Philadelphia, PA 19107;4.0;39.948989035931575;-75.16118083372957
+Amma's South Indian Cuisine;1518 Chestnut St, Philadelphia 19102;4.5;39.95109083018217-75.16643339325407
+Thanal Indian Tavern;1939 Arch St, Philadelphia, PA 19103;4.5;39.955892560182114;-75.17255442209014
+King of Tandoor;1824 Callowhill St, Philadelphia, PA 19130;4.0;39.960516158741754;-75.16929566441803
+Philadelphia Chutney Company;1628 Sansom St, Philadelphia, PA 19103;4.0;39.95070655477031;-75.16797266256563

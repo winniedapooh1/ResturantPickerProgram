@@ -1,10 +1,10 @@
-McGillin's Olde Ale House;1310 Drury St, Philadelphia, PA 19107;4.0
-Iron Hill Brewery;1150 Market St, Philadelphia, PA 19107;4.5
-1518 Bar & Grill;1518 Sansom St,Philadelphia, PA 19102;4.5
-Varga Bar;941 Spruce St, Philadelphia, PA 19107;4.0
-Nick's Roast Beef of Old Philly; 16 S 2nd St, Philadelphia, PA 19106;4.5
-McCrossen's Tavern;529 N 20th St, Philadelphia, PA 19130;4.5
-Glory Beer Bar & Kitchen;126 Chestnut St, Philadelphia, PA 19106;5.0
-Byrne's Tavern;3301 Richmond St, Philadelphia, PA 19134;4.5
-Sassafras Bar; 48 S 2nd St, Philadelphia, PA 19106;4.5
-Grace Tavern;2229 Grays Ferry Ave 23rd and South, Philadelphia, Pa 19146;4.0
+McGillin's Olde Ale House;1310 Drury St, Philadelphia, PA 19107;4.0;39.950310333151336;-75.16263722209014
+Iron Hill Brewery;1150 Market St, Philadelphia, PA 19107;4.5;39.95184055450807;-75.15952166441802
+1518 Bar & Grill;1518 Sansom St,Philadelphia, PA 19102;4.5;39.95037453203391;-75.16668285092621
+Varga Bar;941 Spruce St, Philadelphia, PA 19107;4.0;39.946329790112095, -75.1578261509262
+Nick's Roast Beef of Old Philly;16 S 2nd St, Philadelphia, PA 19106;4.5;39.94967635998063;-75.14401805092619
+McCrossen's Tavern;529 N 20th St, Philadelphia, PA 19130;4.5;39.963268852286014;-75.1708814067459
+Glory Beer Bar & Kitchen;126 Chestnut St, Philadelphia, PA 19106;5.0;39.948391437147684;-75.14354996441803
+Byrne's Tavern;3301 Richmond St, Philadelphia, PA 19134;4.5;39.98437028881379;-75.09869687790983
+Sassafras Bar;48 S 2nd St, Philadelphia, PA 19106;4.5;39.94896961074098;-75.14409114907379
+Grace Tavern;2229 Grays Ferry Ave 23rd and South, Philadelphia, Pa 19146;4.0;39.945287818355624;-75.17948520489352

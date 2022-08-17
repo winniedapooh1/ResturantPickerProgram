@@ -1,5 +1,5 @@
-Dutch Eating Place; 1136 Arch St, Philadelphia, PA 19107;4.5
-Philly Style; White Hall;Null
-Down Home Diner; 51 N 12th St Reading Terminal;3.5
-Little Pete's; 2401 Pennsylvania Ave, Philadelphia, PA 19130;4.0
-Melrose Diner;1501 Snyder Ave, Philadelphia, PA 19145;Null
+Dutch Eating Place;1136 Arch St, Philadelphia, PA 19107;4.5;39.95392544451337;-75.1584343490738
+Philly Style; White Hall;Null;39.983877966119074;-75.15729219510648
+Down Home Diner;51 N 12th St Reading Terminal;3.5;39.95311954481441;-75.15903186441803
+Little Pete's;2401 Pennsylvania Ave, Philadelphia, PA 19130;4.0;39.96720355672262;-75.17773776627043
+Melrose Diner;1501 Snyder Ave, Philadelphia, PA 19145;Null;39.92505875306305;-75.17186997976225

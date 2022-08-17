@@ -1,2 +1,2 @@
-The Ranstead Room;2013 Ranstead St, Philadelphia, PA 19103;4.5
-Tria Cafe Rittenhouse;123 S 18th St, Philadelphia, PA 19103;4.7
+The Ranstead Room;2013 Ranstead St, Philadelphia, PA 19103;4.5;39.95290750323889;-75.17381915092706
+Tria Cafe Rittenhouse;123 S 18th St, Philadelphia, PA 19103;4.7;39.951124930094004;-75.17024502023774
