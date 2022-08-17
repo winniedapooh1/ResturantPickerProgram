@@ -23,8 +23,11 @@ public class ResturantPickerApp {
     public static void main(String[] args) {
         Scanner uI = new Scanner(System.in);
         int uINum = 0;
+        String yesNopoop = "";
         double userLong = 0;
         double userLat = 0;
+        double apartmentLat = 39.976348426972;
+        double apartmentLon = -75.15997772209016;
         ArrayList<String> name = new ArrayList<>();
         ArrayList<String> location = new ArrayList<>();
         ArrayList<String> rating = new ArrayList<>();
@@ -33,12 +36,18 @@ public class ResturantPickerApp {
         System.out.println("Please enter yes to continue the program or No to exit");
             System.out.println("Hello and wellcome to the Where a Date App! \nPress Enter to continue!");
             uI.nextLine();
-            System.out.println("Please enter you latitudwe");
+            System.out.println("Please enter your latitude");
             userLat = uI.nextDouble();
             uI.nextLine();
             System.out.println("Please enter your longitude");
             userLong = uI.nextDouble();
             uI.nextLine();
+            System.out.println("Are you living at 1415?(yes or no)");
+            yesNopoop = uI.nextLine();
+            if(yesNopoop.equals("yes")){
+                userLat = apartmentLat;
+                userLong = apartmentLon;
+            }
             menu();
             uINum = uI.nextInt();
             uI.nextLine();
@@ -77,7 +86,10 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you: " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
@@ -93,8 +105,10 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
-                    System.out.println(randomNum);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you: " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
@@ -110,7 +124,10 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you: " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
@@ -126,7 +143,10 @@ public class ResturantPickerApp {
                 while(yesNo.equals("yes")) {
                     int indexName = name.size();
                     int randomNum = (int) (Math.random() * indexName);
+                    double resturantLat = Double.parseDouble(latitude.get(randomNum));
+                    double resturantLong = Double.parseDouble(longitude.get(randomNum));
                     printStatement(name,location,rating,randomNum);
+                    System.out.println("Distance from you: " + distance(userLat,resturantLat, userLong, resturantLong));
                     System.out.println("Another resturant? (yes or no)");
                     yesNo = uI.nextLine();
                 }
